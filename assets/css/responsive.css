@@ -88,7 +88,7 @@
 
 
     /* Cookies CSS Start */
-    #cookie-bar button {
+    /* #cookie-bar button {
         float: left;
         padding: 7px 15px;
         font-size: 14px;
@@ -98,13 +98,13 @@
     #cookie-bar p {
         font-size: 14px;
         line-height: 20px;
-        /* width: 100%; */
+         width:100%; 
     }
 
     #contentcookie {
         padding: 20px 10px;
-        /* width: 100%; */
-    }
+         width:100%; 
+    } */
     /* Cookies CSS End */
 }
 
@@ -344,13 +344,13 @@
 
 
     /* Cookies CSS Start */
-    #cookie-bar button {
+    /* #cookie-bar button {
         font-size: 13px;
     }
 
     #cookie-bar p {
         font-size: 13px;
-    }
+    } */
 
     /* Cookies CSS End */
 }
@@ -488,9 +488,9 @@
 
 
     /* Cookies CSS Start */
-    #cookie-bar p {
+    /* #cookie-bar p {
         font-size: 13px;
-    }
+    } */
 
     /* Cookies CSS End */
 

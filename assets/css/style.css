@@ -12,6 +12,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  overflow: hidden;
 }
 
 h1,
@@ -849,13 +850,14 @@ section.pages-cards-section {
 
 /* Cookies CSS Start */
 
-#cookie-bar {
+/* #cookie-bar {
   background-color:#163a68;
   display: block;
   position: fixed;
   bottom: 0px;
   width: 100%;
   left: 0px;
+  right: 0;
   width: 100%;
   color: #000;
 }
@@ -863,7 +865,7 @@ section.pages-cards-section {
 #cookie-bar p {
   width: 85%;
   float: left;
-  display: inline-block;
+  display: block;
   line-height: 24px;
   color: #fff;
 }
@@ -901,7 +903,7 @@ section.pages-cards-section {
 
 .clear {
   clear: both;
-}
+} */
 
 /* Cookies CSS End */
 
