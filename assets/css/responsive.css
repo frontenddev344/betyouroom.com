@@ -128,11 +128,11 @@
         color: #fff;
     }
     .dropdown{
-        z-index: 55;
+        z-index: 45;
      }
 
 
-    .main-navbar ul {
+    .main-navbar>ul {
         flex-direction: column;
         z-index: 50;
         width: 100%;

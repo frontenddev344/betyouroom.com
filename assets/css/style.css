@@ -107,11 +107,6 @@ img {
   transform: scale(1.1);
 }
 
-.main-navbar ul li {
-  position: relative;
-  /* For dropdown menu */
-}
-
 .logo,
 .desktop-menu .social-icons {
   width: 25%;
@@ -133,6 +128,7 @@ img {
   cursor: pointer;
   text-transform: uppercase;
 }
+
 
 .main-navbar ul li a.active {
   color: #163a68;
@@ -200,10 +196,10 @@ img {
   flex-direction: column;
   position: absolute;
   width: 200px;
-  gap: 0;
-  left: 50%;
-  opacity: 0;
-  visibility: hidden;
+   left: 50%;
+  display: none;
+  /* opacity: 0;
+  visibility: hidden; */
   transition: 0.7s opacity ease-in-out;
   margin: 0 auto;
   text-align: center;
@@ -224,14 +220,14 @@ img {
 }
 
 .main-navbar .dropdown li a {
-  line-height: 25px;
+  /* line-height: 20px; */
   width: 100%;
 }
 
-.main-navbar ul li:hover .dropdown {
+/* .main-navbar ul li:hover .dropdown {
   opacity: 1;
   visibility: visible;
-}
+} */
 
 .dropdown-arrow {
   margin-left: 6px;
@@ -926,4 +922,11 @@ section.pages-cards-section {
 .slick-dots li.slick-active button:before {
   opacity: 1;
   color: #163a68;
+}
+
+ .button-dropdown {
+  position: relative;
+}
+.main-navbar .dropdown.dropping .dropdown{
+display: block;
 }
