@@ -428,6 +428,7 @@ section.home-page-cards-section {
 
 .home-page-cards-info {
   padding: 0 30px;
+  text-align: center;
 }
 
 .home-page-cards-info h2 {
@@ -482,7 +483,7 @@ section.home-page-cards-section {
   max-width: 230px;
 }
 .footer-items{
- width: 33.33%;
+ width: 30%;
 }
 
 
@@ -851,7 +852,7 @@ section.pages-cards-section {
 /* Cookies CSS Start */
 #cookie-bar {
   background-color:#163a68;
-  display: block;
+  display: none;
   position: fixed;
   bottom: 0px;
   width: 100%;
@@ -864,7 +865,7 @@ section.pages-cards-section {
 #cookie-bar p {
   width: 85%;
   float: left;
-  display: block;
+  display: none;
   line-height: 24px;
   color: #fff;
 }
@@ -906,28 +907,15 @@ section.pages-cards-section {
 
 /* Cookies CSS End */
 
-.slide {
-  position: relative;
-  overflow: hidden;
+.slick-dots li button:before {
+  font-size: 40px;
+  width: 30px;
+  height: 30px;
+  content: '•';
+  opacity: 1;
+  color: #4f96f4;
 }
-.text {
-  position: relative;
-  transition: 0.5s;
-}
-.slide::before {
-  content: "";
-position: absolute;
-top: 0;
-left: 0;
-width: 130%;
-height: 55px;
-background-color: #769fd6;
-transform: translate(-110%, 0) skew(-30deg);
-transition: 0.5s;
-}
-.slide:hover .text {
-  color: #fff;
-}
-.slide:hover::before {
-  transform: translate(-5%, 0) skew(-15deg);
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #163a68;
 }

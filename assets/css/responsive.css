@@ -2,6 +2,7 @@
     .home-page-content-image {
         width: 100%;
     }
+
     .home-page-content {
         padding: 50px 0;
     }
@@ -16,7 +17,7 @@
         font-weight: 500;
     }
 
-    .footer .footer-links ul li a ,
+    .footer .footer-links ul li a,
     .footer .footer-quick-links ul li a {
         font-size: 16px;
         font-weight: 500;
@@ -98,13 +99,14 @@
     #cookie-bar p {
         font-size: 14px;
         line-height: 20px;
-         width:100%; 
+        width: 100%;
     }
 
     #contentcookie {
         padding: 20px 10px;
-         width:100%; 
+        width: 100%;
     }
+
     /* Cookies CSS End */
 }
 
@@ -222,6 +224,7 @@
     .banner-image {
         height: 370px;
     }
+
     .home-page-cards-image {
         height: 230px;
     }
@@ -236,6 +239,9 @@
 
     .home-page-cards-info {
         padding: 0px 10px;
+    }
+    .home-page-cards-info p {
+         display: none;
     }
 
     .home-page-cards-info h2 {
@@ -264,6 +270,7 @@
     .banner-image {
         height: 340px;
     }
+
     .pages-intro {
         padding: 35px 5px;
     }
@@ -373,11 +380,12 @@
         width: 100%;
         max-width: 170px;
     }
-   
+
 
     .home-page-content-text p {
         font-size: 13px;
     }
+
     .home-page-cards-image {
         height: 200px;
     }
@@ -394,6 +402,13 @@
         width: 100%;
     }
 
+    .slick-dots li button:before {
+        font-size: 30px;
+    }
+
+    .slick-dots {
+        bottom: -20px;
+    }
 
 
 
@@ -519,6 +534,7 @@
         font-size: 12px;
 
     }
+
     .home-page-cards-image {
         height: 180px;
     }
