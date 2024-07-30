@@ -414,7 +414,7 @@ section.home-page-cards-section {
   position: static;
 }
 .home-page-cards-image {
-  height: 280px;
+  height: 220px;
 }
 .home-page-cards-image img {
   width: 100%;
@@ -432,13 +432,14 @@ section.home-page-cards-section {
 }
 
 .home-page-cards-info h2 {
-  font-size: 30px;
+  font-size: 26px;
   margin: 10px auto;
 }
 
 .home-page-cards-info p {
   margin-bottom: 14px;
   color: #545556;
+  display: none;
 }
 
 .cards-btn {

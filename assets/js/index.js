@@ -20,6 +20,7 @@ $('.home-page-cards-wrapper').slick({
   dots:true,
   autoplaySpeed: 1500,
   centerMode: true,
+  centerPadding: '80px',
   responsive: [
     {
       breakpoint: 991,
