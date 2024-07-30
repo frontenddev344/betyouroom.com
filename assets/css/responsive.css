@@ -88,7 +88,7 @@
 
 
     /* Cookies CSS Start */
-    /* #cookie-bar button {
+    #cookie-bar button {
         float: left;
         padding: 7px 15px;
         font-size: 14px;
@@ -104,7 +104,7 @@
     #contentcookie {
         padding: 20px 10px;
          width:100%; 
-    } */
+    }
     /* Cookies CSS End */
 }
 
@@ -344,13 +344,13 @@
 
 
     /* Cookies CSS Start */
-    /* #cookie-bar button {
+    #cookie-bar button {
         font-size: 13px;
     }
 
     #cookie-bar p {
         font-size: 13px;
-    } */
+    }
 
     /* Cookies CSS End */
 }
@@ -370,11 +370,13 @@
         width: 100%;
         max-width: 170px;
     }
-
-    
+   
 
     .home-page-content-text p {
         font-size: 13px;
+    }
+    .home-page-cards-image {
+        height: 230px;
     }
 
     .home-page-cards-info h2 {
@@ -488,9 +490,9 @@
 
 
     /* Cookies CSS Start */
-    /* #cookie-bar p {
+    #cookie-bar p {
         font-size: 13px;
-    } */
+    }
 
     /* Cookies CSS End */
 
