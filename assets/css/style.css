@@ -12,6 +12,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 h1,
@@ -848,8 +849,6 @@ section.pages-cards-section {
 /* Pages CSS End */
 
 /* Cookies CSS Start */
-
-
 #cookie-bar {
   background-color:#163a68;
   display: block;

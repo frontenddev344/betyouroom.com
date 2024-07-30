@@ -17,6 +17,7 @@ $('.home-page-cards-wrapper').slick({
   slidesToShow: 2,
   slidesToScroll: 1,
   autoplay:true,
+  dots:true,
   autoplaySpeed: 1500,
   responsive: [
     {
@@ -44,6 +45,13 @@ $('.home-page-cards-wrapper').slick({
     },
     {
       breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 320,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
