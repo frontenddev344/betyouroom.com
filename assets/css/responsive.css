@@ -167,9 +167,9 @@
     }
 
 
-    .main-navbar .dropdown-arrow {
+    /* .main-navbar .dropdown-arrow {
         display: none;
-    }
+    } */
 
     .close-icon {
         position: absolute;
@@ -194,9 +194,9 @@
         display: block;
     }
 
-    .mobile-menu-hide {
+    /* .mobile-menu-hide {
         display: none;
-    }
+    } */
 
     .desktop-menu {
         justify-content: space-between;
