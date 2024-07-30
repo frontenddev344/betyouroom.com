@@ -121,17 +121,23 @@ img {
   padding:10px;
   display: inline-block;
   color: #545556;
-  line-height: 42px;
+  /* line-height: 42px; */
   transition: 0.5sec all ease-in;
   font-size: 18px;
   text-align: center;
   cursor: pointer;
   text-transform: uppercase;
+  border-bottom: 1px solid transparent;
 }
+.main-navbar .dropdown li a{
+  line-height: 25px;
+}
+
 
 
 .main-navbar ul li a.active {
   color: #163a68;
+border-bottom: 1px solid #163a68;
 }
 
 .footer .footer-links ul li a,.footer-quick-links ul li a {
@@ -150,7 +156,6 @@ img {
 
 .main-navbar ul li a:hover {
   color: #163a68;
-  /* background: #163a68; */
  }
 
 .close-icon {
