@@ -36,6 +36,8 @@ $('.home-page-cards-wrapper').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
+        centerMode: true,
+        centerPadding: '50px',
              }
     },
     {

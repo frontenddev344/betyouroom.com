@@ -230,7 +230,7 @@
     }
 
     .home-page-cards-image {
-        height: 230px;
+        height: 190px;
     }
 
     .home-page-content {
@@ -251,9 +251,8 @@
     .home-page-cards-info h2 {
         font-size: 22px;
     }
-
     .cards-btn {
-        padding: 9px 15px;
+        padding: 7px 13px;
         font-size: 14px;
         font-weight: 300;
     }
