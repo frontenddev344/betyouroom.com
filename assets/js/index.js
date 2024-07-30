@@ -48,7 +48,7 @@ $('.home-page-cards-wrapper').slick({
     {
       breakpoint: 575,
       settings: {
-        slidesToShow: 2,
+        slidesToShow:2,
         slidesToScroll: 1
       }
     },
