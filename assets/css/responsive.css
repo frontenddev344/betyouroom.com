@@ -99,12 +99,12 @@
     #cookie-bar p {
         font-size: 14px;
         line-height: 20px;
-        width: 100%;
+        /* width: 100%; */
     }
 
     #contentcookie {
         padding: 20px 10px;
-        width: 100%;
+        /* width: 100%; */
     }
 
     /* Cookies CSS End */
