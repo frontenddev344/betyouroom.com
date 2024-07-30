@@ -138,16 +138,16 @@ img {
   color: #163a68;
 }
 
-.footer .footer-links ul li a {
+.footer .footer-links ul li a,.footer-quick-links ul li a {
   border-bottom: 1px solid transparent;
   transition: 0.6s all ease;
 }
 
-.footer .footer-links ul li a.active {
+.footer .footer-links ul li a.active ,.footer-quick-links ul li a.active {
   color: #163a68;
 }
 
-.footer .footer-links ul li a:hover {
+.footer .footer-links ul li a:hover,.footer-quick-links ul li a:hover  {
   color: #163a68;
   border-bottom: 1px solid #163a68;
 }
@@ -367,6 +367,7 @@ img {
 
 .home-page-content-image {
   width: 40%;
+  overflow: hidden;
 }
 
 .home-page-content-image img {
@@ -374,6 +375,11 @@ img {
   object-fit: cover;
   width: 100%;
   height: 100%;
+  transition: 0.5s all ease-out;
+
+}
+.home-page-content-image img:hover{
+  transform: scale(1.2);
 }
 
 .home-page-content-text {
@@ -404,6 +410,7 @@ section.home-page-cards-section {
 .slick-prev,
 .slick-next {
   display: none !important;
+  position: static;
 }
 .home-page-cards-image {
   height: 280px;
@@ -477,10 +484,14 @@ section.home-page-cards-section {
  width: 33.33%;
 }
 
+
 .footer-items h3 {
   font-size: 25px;
   margin-bottom: 12px;
   color: #163a68;
+}
+.footer-items .social-icons {
+  margin-top: 10px;
 }
 
 

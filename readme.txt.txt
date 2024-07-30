@@ -1,1 +1,0 @@
-https://www.logomaker.com/step3/logo/979759889?fscqp21=wWrz0xYtbtcQrALxJkGm0Cnq4a7f8UINzVqIlWAtaF8UvE8uz3p41bYomqhvc1lvvQ5c3AYFc4s-
