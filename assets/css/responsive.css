@@ -391,11 +391,11 @@
     }
 
     .home-page-cards-image {
-        height: 200px;
+        height: 170px;
     }
 
     .home-page-cards-info h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .home-page-cards-info p {
@@ -541,11 +541,6 @@
 
     .home-page-cards-image {
         height: 180px;
-    }
-
-    .home-page-cards-info h2 {
-        font-size: 22px;
-        margin-bottom: 10px;
     }
 
     .home-page-cards-info p {
