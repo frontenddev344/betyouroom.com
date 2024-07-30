@@ -19,17 +19,24 @@ $('.home-page-cards-wrapper').slick({
   autoplay:true,
   dots:true,
   autoplaySpeed: 1500,
-  centerMode: true,
-  centerPadding: '80px',
-  responsive: [
+   responsive: [
+       {
+      breakpoint:1900 ,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        centerMode: true,
+        centerPadding: '80px',
+             }
+    },
     {
       breakpoint: 991,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
-       
-      }
+             }
     },
     {
       breakpoint: 767,
