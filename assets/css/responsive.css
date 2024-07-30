@@ -127,10 +127,7 @@
         justify-content: flex-start;
         color: #fff;
     }
-    .dropdown{
-        z-index: 45;
-     }
-
+   
 
     .main-navbar>ul {
         flex-direction: column;
@@ -196,7 +193,7 @@
         display: none;
     }
 
-    .desktop-hidden-menu {
+    .desktop-menu-option-hide {
         display: block;
     }
 

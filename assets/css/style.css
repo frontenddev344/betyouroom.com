@@ -118,7 +118,7 @@ img {
 
 .main-navbar ul li a {
   font-size: 1rem;
-  padding: 10px;
+  padding:3px 10px;
   display: inline-block;
   color: #545556;
   line-height: 42px;
@@ -220,14 +220,13 @@ img {
 }
 
 .main-navbar .dropdown li a {
-  /* line-height: 20px; */
   width: 100%;
 }
 
-/* .main-navbar ul li:hover .dropdown {
+.main-navbar ul li:hover .dropdown {
   opacity: 1;
   visibility: visible;
-} */
+}
 
 .dropdown-arrow {
   margin-left: 6px;
