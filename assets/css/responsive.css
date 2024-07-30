@@ -127,6 +127,10 @@
         justify-content: flex-start;
         color: #fff;
     }
+    .dropdown{
+        z-index: 55;
+     }
+
 
     .main-navbar ul {
         flex-direction: column;
@@ -168,11 +172,11 @@
         line-height: 20px;
     }
 
-
-    /* .main-navbar .dropdown-arrow {
+/* 
+     .main-navbar .dropdown-arrow {
         display: none;
     } */
-
+    
     .close-icon {
         position: absolute;
         top: 20px;

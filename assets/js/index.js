@@ -14,11 +14,12 @@ $(document).ready(function () {
 // Slick Slider JS Start
 $('.home-page-cards-wrapper').slick({
   infinite: true,
-  slidesToShow: 2,
+  slidesToShow: 3,
   slidesToScroll: 1,
   autoplay:true,
   dots:true,
   autoplaySpeed: 1500,
+  centerMode: true,
   responsive: [
     {
       breakpoint: 991,
