@@ -132,13 +132,18 @@ img {
 .main-navbar .dropdown li a{
   line-height: 25px;
 }
-
-
+.main-navbar ul li a:hover {
+  color: #163a68;
+ }
 
 .main-navbar ul li a.active {
   color: #163a68;
 border-bottom: 1px solid #163a68;
 }
+.main-navbar .dropdown li a.active {
+  color: #163a68;
+}
+
 
 .footer .footer-links ul li a,.footer-quick-links ul li a {
   border-bottom: 1px solid transparent;
@@ -154,9 +159,7 @@ border-bottom: 1px solid #163a68;
   border-bottom: 1px solid #163a68;
 }
 
-.main-navbar ul li a:hover {
-  color: #163a68;
- }
+
 
 .close-icon {
   display: none;
