@@ -271,7 +271,9 @@ border-bottom: 1px solid #163a68;
   transform: scale(1.1);
 }
 
+
 /* Social Icons CSS End */
+
 
 
 /* Banner Section CSS Start */
@@ -434,7 +436,7 @@ section.home-page-cards-section {
 }
 
 .home-page-cards-info {
-  padding: 0 30px;
+  padding: 0 25px;
   text-align: center;
 }
 
@@ -493,8 +495,6 @@ section.home-page-cards-section {
 .footer-items{
  width: 30%;
 }
-
-
 .footer-items h3 {
   font-size: 25px;
   margin-bottom: 12px;
