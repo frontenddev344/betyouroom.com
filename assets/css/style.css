@@ -930,6 +930,7 @@ section.pages-cards-section {
 
  .button-dropdown {
   position: relative;
+  text-align: center;
 }
 .main-navbar .dropdown.dropping .dropdown{
 display: block;
