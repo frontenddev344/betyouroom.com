@@ -110,9 +110,6 @@
     /* Cookies CSS End */
 }
 
-
-
-
 @media screen and (max-width:767px) {
     .main-navbar {
         position: fixed;
@@ -133,7 +130,6 @@
         transform: translateX(0);
         /*For making dropdown not covering contact us option */
     }
-
 
     .main-navbar>ul {
         flex-direction: column;
