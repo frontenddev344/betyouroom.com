@@ -127,7 +127,12 @@
         justify-content: flex-start;
         color: #fff;
     }
-   
+
+    .main-navbar .dropdown {
+        position: static;
+         transform: translateX(0);   /*For making dropdown not covering contact us option */
+    }
+
 
     .main-navbar>ul {
         flex-direction: column;
@@ -169,11 +174,11 @@
         line-height: 20px;
     }
 
-/* 
+    /* 
      .main-navbar .dropdown-arrow {
         display: none;
     } */
-    
+
     .close-icon {
         position: absolute;
         top: 20px;
@@ -241,13 +246,15 @@
     .home-page-cards-info {
         padding: 0px 10px;
     }
+
     .home-page-cards-info p {
-         display: none;
+        display: none;
     }
 
     .home-page-cards-info h2 {
         font-size: 22px;
     }
+
     .cards-btn {
         padding: 7px 13px;
         font-size: 14px;
@@ -547,6 +554,7 @@
         padding: 7px 13px;
         font-size: 13px;
     }
+
     .footer-items {
         width: 100%;
         text-align: center;
