@@ -650,7 +650,6 @@ section.pages-cards-section {
   border: none;
   outline: none;
   padding: 10px 5px;
-  /* border-radius: 5px; */
   transition: 0.3s all ease-in-out;
   cursor: pointer;
   min-width: 115px;
@@ -663,7 +662,8 @@ section.pages-cards-section {
 }
 
 .btn-darkred-block:hover {
-  transform: scale(1.05);
+background-color:#163a68 ;
+color: #fff;
 }
 
 .pages-link-btn {
@@ -675,7 +675,7 @@ section.pages-cards-section {
   padding: 10px 5px;
   /* border-radius: 5px; */
   font-size: 17px;
-  transition: 0.3s all ease-in-out;
+  transition: 0.2s all ease-in-out;
   min-width: 115px;
   line-height: normal;
   text-align: center;
@@ -684,7 +684,9 @@ section.pages-cards-section {
 }
 
 .pages-link-btn:hover {
-  transform: scale(1.05);
+background-color: #fff;
+color: #163a68;
+border-color: #163a68;
 }
 
 .after-cards-text-section {
