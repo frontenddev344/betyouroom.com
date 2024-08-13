@@ -34,7 +34,7 @@ ul {
 
 a {
   text-decoration: none;
-   display: inline-block;
+  display: inline-block;
   font-family: "Roboto", sans-serif;
 }
 
@@ -79,6 +79,7 @@ img {
   vertical-align: middle;
   padding: 5px 0;
 }
+
 .logo a {
   display: inline-block;
   height: 100%;
@@ -118,7 +119,7 @@ img {
 
 .main-navbar ul li a {
   font-size: 1rem;
-  padding:10px;
+  padding: 10px;
   display: inline-block;
   color: #545556;
   /* line-height: 42px; */
@@ -129,32 +130,38 @@ img {
   text-transform: uppercase;
   border-bottom: 1px solid transparent;
 }
-.main-navbar .dropdown li a{
+
+.main-navbar .dropdown li a {
   line-height: 25px;
 }
+
 .main-navbar ul li a:hover {
   color: #163a68;
- }
+}
 
 .main-navbar ul li a.active {
   color: #163a68;
-border-bottom: 1px solid #163a68;
+  border-bottom: 1px solid #163a68;
 }
+
 .main-navbar .dropdown li a.active {
   color: #163a68;
 }
 
 
-.footer .footer-links ul li a,.footer-quick-links ul li a {
+.footer .footer-links ul li a,
+.footer-quick-links ul li a {
   border-bottom: 1px solid transparent;
   transition: 0.6s all ease;
 }
 
-.footer .footer-links ul li a.active ,.footer-quick-links ul li a.active {
+.footer .footer-links ul li a.active,
+.footer-quick-links ul li a.active {
   color: #163a68;
 }
 
-.footer .footer-links ul li a:hover,.footer-quick-links ul li a:hover  {
+.footer .footer-links ul li a:hover,
+.footer-quick-links ul li a:hover {
   color: #163a68;
   border-bottom: 1px solid #163a68;
 }
@@ -204,7 +211,7 @@ border-bottom: 1px solid #163a68;
   flex-direction: column;
   position: absolute;
   width: 200px;
-   left: 50%;
+  left: 50%;
   display: none;
   /* opacity: 0;
   visibility: hidden; */
@@ -288,6 +295,7 @@ border-bottom: 1px solid #163a68;
   height: 650px;
   width: 100%;
 }
+
 .banner-image img {
   height: 100%;
   object-fit: cover;
@@ -350,7 +358,7 @@ border-bottom: 1px solid #163a68;
 
   100% {
     opacity: 1;
-    transform: translateY(0) ;
+    transform: translateY(0);
   }
 }
 
@@ -360,7 +368,7 @@ border-bottom: 1px solid #163a68;
 
 /* Home Page Content Section CSS Start */
 .home-page-content {
-   padding: 70px 0;
+  padding: 70px 0;
 }
 
 .home-page-content-wrapper {
@@ -385,7 +393,8 @@ border-bottom: 1px solid #163a68;
   transition: 0.5s all ease-out;
 
 }
-.home-page-content-image img:hover{
+
+.home-page-content-image img:hover {
   transform: scale(1.2);
 }
 
@@ -395,7 +404,7 @@ border-bottom: 1px solid #163a68;
 }
 
 .home-page-content-text p {
-   margin-bottom: 10px;
+  margin-bottom: 10px;
   color: #545556;
 }
 
@@ -406,6 +415,7 @@ border-bottom: 1px solid #163a68;
 section.home-page-cards-section {
   padding: 0px 0 50px 0;
 }
+
 .home-page-cards {
   margin: 20px 10px;
   border-radius: 6px;
@@ -419,17 +429,20 @@ section.home-page-cards-section {
   display: none !important;
   position: static;
 }
+
 .home-page-cards-image {
   height: 220px;
   overflow: hidden;
 }
+
 .home-page-cards-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: 0.6s all ease-in-out;
 }
-.home-page-cards:hover  .home-page-cards-image img{
+
+.home-page-cards:hover .home-page-cards-image img {
   transform: scale(1.2);
 }
 
@@ -459,13 +472,14 @@ section.home-page-cards-section {
   background: #163a68;
   color: #fff;
   text-align: center;
-   overflow: hidden;
+  overflow: hidden;
   margin: 0px auto 15px auto;
   font-size: 15px;
-  border:1px solid transparent;
+  border: 1px solid transparent;
   transition: 0.4s all ease-in-out;
 }
-.cards-btn:hover{
+
+.cards-btn:hover {
   border-color: #163a68;
   background-color: #fff;
   color: #163a68;
@@ -495,14 +509,17 @@ section.home-page-cards-section {
   width: 100%;
   max-width: 230px;
 }
-.footer-items{
- width: 30%;
+
+.footer-items {
+  width: 30%;
 }
+
 .footer-items h3 {
   font-size: 25px;
   margin-bottom: 12px;
   color: #163a68;
 }
+
 .footer-items .social-icons {
   margin-top: 10px;
 }
@@ -610,7 +627,7 @@ section.pages-cards-section {
 }
 
 .pages-cards-image {
-   overflow: hidden;
+  overflow: hidden;
   width: 100%;
   height: 270px;
 }
@@ -662,8 +679,8 @@ section.pages-cards-section {
 }
 
 .btn-darkred-block:hover {
-background-color:#163a68 ;
-color: #fff;
+  background-color: #163a68;
+  color: #fff;
 }
 
 .pages-link-btn {
@@ -684,9 +701,9 @@ color: #fff;
 }
 
 .pages-link-btn:hover {
-background-color: #fff;
-color: #163a68;
-border-color: #163a68;
+  background-color: #fff;
+  color: #163a68;
+  border-color: #163a68;
 }
 
 .after-cards-text-section {
@@ -717,7 +734,8 @@ border-color: #163a68;
   margin-bottom: 25px;
   border: 1px solid #c7c9cb;
 }
-.privacy-policy-group:last-child{
+
+.privacy-policy-group:last-child {
   margin-bottom: 0;
 }
 
@@ -731,12 +749,15 @@ border-color: #163a68;
   margin-bottom: 10px;
   color: #545556;
 }
+
 .privacy-policy-group p a {
-  color:#163a68;
+  color: #163a68;
   font-weight: 600;
 }
-.privacy-policy-group p a:hover,.privacy-policy-group ul li a:hover  {
-  color:red;
+
+.privacy-policy-group p a:hover,
+.privacy-policy-group ul li a:hover {
+  color: red;
 }
 
 .privacy-policy-group ul li {
@@ -785,13 +806,16 @@ border-color: #163a68;
   color: #454545;
   margin-bottom: 10px;
 }
-.terms-conditions-group p a{
+
+.terms-conditions-group p a {
   color: #163a68;
   font-weight: 600;
 }
-.terms-conditions-group p a:hover{
+
+.terms-conditions-group p a:hover {
   color: red;
 }
+
 .terms-conditions-group ul {
   margin-bottom: 8px;
 }
@@ -853,8 +877,8 @@ border-color: #163a68;
   color: #163a68;
 }
 
-.contact-us-group ul li  a:hover,
-.contact-us-group ul li  span:hover {
+.contact-us-group ul li a:hover,
+.contact-us-group ul li span:hover {
   color: red;
 }
 
@@ -864,7 +888,7 @@ border-color: #163a68;
 
 /* Cookies CSS Start */
 #cookie-bar {
-  background-color:#163a68;
+  background-color: #163a68;
   display: block;
   position: fixed;
   bottom: 0px;
@@ -885,7 +909,7 @@ border-color: #163a68;
 
 #cookie-bar button {
   float: right;
-  background:#68a6f7;
+  background: #68a6f7;
   border: none;
   padding: 15px 20px;
   text-transform: uppercase;
@@ -928,15 +952,42 @@ border-color: #163a68;
   opacity: 1;
   color: #4f96f4;
 }
+
 .slick-dots li.slick-active button:before {
   opacity: 1;
   color: #163a68;
 }
 
- .button-dropdown {
+.button-dropdown {
   position: relative;
   text-align: center;
 }
-.main-navbar .dropdown.dropping .dropdown{
-display: block;
+
+.main-navbar .dropdown.dropping .dropdown {
+  display: block;
+}
+
+.dropdowns {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 20px;
+
+}
+
+.dropdowns img {
+  max-width: 35px;
+  height: 35px;
+  border-radius: 30px;
+
+}
+
+.dropdowns button.dropbtn {
+  background: transparent;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
 }
